@@ -1,0 +1,21 @@
+.Posting {
+    text-align: center;
+    color: white;
+}
+.Posting .message {
+    display: inline-block;
+    margin-right: 12px;
+}
+.Posting .btn {
+    border-radius: 20px;
+    color: #051e34;
+    background-color: white;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.internal-promo {
+    background-color: #05162b;
+    padding: 45px 0
+}

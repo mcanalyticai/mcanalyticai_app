@@ -1,0 +1,25 @@
+/* CSS */
+.Contact {
+    background-color: #F1F1F1;
+    border: grey 3px solid;
+    border-radius: 25px;
+
+    margin-top: -25px;
+}
+
+.Logo-Contact {
+    height: 125px;
+}
+
+.Text-Area {
+    height: 200px;
+}
+
+.Break-Div-Top {
+    height: 75px;
+}
+
+.Break-Div-Bottom {
+    height: 25px;
+    border-bottom: grey 3px solid;
+}

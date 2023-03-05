@@ -1,0 +1,44 @@
+.About-Header {
+    height: 125px;
+    color: white;
+
+    border-top: grey 2px solid;
+    border-bottom: grey 2px solid;
+}
+
+.About-Page {
+    background-color: #F1f1f1;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+
+/* subsections */
+.About-Header h1 {
+    font-size: 56px;
+    color: white;
+}
+
+.About-Header p {
+    font-size: 20px;
+}
+
+.About p {
+    font-size: 18px;
+}
+
+.President {
+    border-radius: 50%;
+    height: 225px;
+}
+
+.grey-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: rgb(0, 0, 0) 1px solid;
+    text-align: left;
+}

@@ -1,0 +1,121 @@
+/* ... */
+
+.Data-Analytics {
+  background-color: rgb(109, 109, 109);
+}
+.description-data {
+  height: 250px;
+  max-width: 450px;
+  border-left: grey 2px solid;
+  min-width: 400px;
+}
+
+.Web-Dev {
+  background-color: rgb(80, 80, 80);
+}
+
+.description-web {
+  height: 250px;
+  max-width: 450px;
+  border-right: grey 2px solid;
+  min-width: 400px;
+}
+
+.description h3 {
+  font-size: 26px;
+}
+
+.description p {
+  font-size: 18px;
+  text-align: left;
+  display: block;
+  box-sizing: border-box;
+  
+}
+
+/* Domino effect */
+.Concentrations {
+  background-color: rgb(109, 109, 109);
+  height: 150px;
+}
+
+/* Domino Animation */
+
+body {
+  background-color:#555; color:#fff; 
+  font-family: lato, sans; 
+  font-weight: 300; font-size:0.8em; 
+  text-align:center;}
+  
+  .dominos { 
+    min-width: 40em;
+    position:relative;
+    padding-top: 3em;
+    list-style:none; 
+    display:block;
+  }
+  
+  
+  
+  .domino:nth-child(1){ animation-delay:.75s;  z-index:5 }
+    .domino:nth-child(2){ animation-delay:1.33s; z-index:4 }
+    .domino:nth-child(3){ animation-delay:1.90s; z-index:3 }
+    .domino:nth-child(4){ animation-delay:2.50s; z-index:2 }
+    .domino:nth-child(5){ animation-delay: 3.10s; z-index: 1}
+  
+  .domino { 
+    display:inline-block; list-style:none;
+    transform: rotate(-90deg); 
+    width: 6.5em;   height: 2em;
+    margin-bottom:.25em;    
+    color:#777;background-color:#444;
+    line-height:2em;
+    text-transform: uppercase; 
+    text-align:center; 
+    animation: topple 1.5s ease-in 1 alternate;
+    animation-fill-mode: forwards;
+    position:relative;
+  }
+
+
+  
+  
+@keyframes topple {
+    
+  0% {background-color: black;color: white;}
+      
+  4% {background-color: #eea;color:#432;
+      transform: rotate(-90deg); 
+        box-shadow: 0 0 1em #fe2;}
+      
+  42% {margin-left: .5em; margin-right: 0em; 
+        box-shadow: none;}
+    
+    
+  100% {transform:rotate(0deg);
+        color: #333; background-color:white; 
+        margin: 0;margin-bottom:.25em;}
+}
+
+
+/*
+.NavBar-Logo {
+    height: 20vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .NavBar-Logo {
+      animation: NavBar-Logo-spin infinite 10s linear; 
+    }
+  }
+
+  @keyframes NavBar-Logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  */

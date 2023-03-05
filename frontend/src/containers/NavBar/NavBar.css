@@ -1,0 +1,111 @@
+/*@import "compass";*/
+
+.red-box {
+  border: red 1px solid;
+}
+
+/* Bar (top portion) */
+.Bar {
+  border-bottom: 1px solid #554F4F;
+  background-color: #b0c4de;
+  margin-bottom: 20px;
+}
+
+/* Left (Logo and Name) */
+.Top {
+  background-color: #b0c4de;
+  height: 155px;
+}
+@media screen and (max-width: 992px) {
+  .Top {
+    height: 155px;
+  } 
+}
+@media screen and (max-width: 768px) {
+  .Top {
+    height: 125px;
+  } 
+}
+@media screen and (max-width: 576px) {
+  .Top {
+    height: 125px;
+  } 
+}
+
+/*
+Top row borders
+.Top-Row {
+  border-right: white 2px solid;
+  border-left: white 2px solid;
+}
+*/
+
+/* Logo */
+.Top-Logo {
+  height: 80px;
+}
+@media screen and (max-width: 992px) {
+  .Top-Logo {
+    height: 80px;
+  } 
+}
+@media screen and (max-width: 768px) {
+  .Top-Logo {
+    height: 65px;
+  } 
+}
+@media screen and (max-width: 576px) {
+  .Top-Logo {
+    height: 65;
+  } 
+}
+
+/* Name */
+.Top-Name {
+  height: 100px;
+}
+@media screen and (max-width: 992px) {
+  .Top-Name {
+    height: 100px;
+  } 
+}
+@media screen and (max-width: 768px) {
+  .Top-Name {
+    height: 80px;
+  } 
+}
+@media screen and (max-width: 550px) {
+  .Top-Name {
+    display: None;
+  } 
+}
+
+
+
+/* NavBar */
+nav.navbar {
+  max-width: 1333px; /* applying max-width */
+  margin: 0 auto; /* center */
+}
+
+.navbar-collapse {
+  justify-content : center; /* center the elements in the block if there is flex */
+  webkit-justify-content: center; /* make it works on some navigators */
+}
+
+.NavBar {
+  background-color: #F1F1F1;
+  border: #554F4F 1px solid;
+}
+
+.tab {
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+

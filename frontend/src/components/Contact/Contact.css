@@ -1,0 +1,21 @@
+.ContactUs {
+    text-align: center;
+    color: white;
+}
+.ContactUs .message {
+    display: inline-block;
+    margin-right: 12px;
+}
+.ContactUs .btn {
+    border-radius: 20px;
+    color: #051e34;
+    background-color: white;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.internal-promo {
+    background-color: #05162b;
+    padding: 45px 0
+}
