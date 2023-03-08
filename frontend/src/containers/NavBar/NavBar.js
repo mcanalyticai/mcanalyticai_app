@@ -30,6 +30,7 @@ export default function NavBar() {
                                 <li class="nav-item active">
                                     <a class="nav-link tab" href="/home">Home <span class="sr-only">(current)</span></a>
                                 </li>
+                                {/*
                                 <li class="nav-item">
                                     <a class="nav-link tab" href="/services">Services</a>
                                 </li>
@@ -41,25 +42,16 @@ export default function NavBar() {
                                         <a class="dropdown-item" href="/comp-prob">Computational probability model</a>
                                         <a class="dropdown-item" href="/other">Other softwares</a>
                                         <a class="dropdown-item" href="/contact-invest">Contact form</a>
-                                    </div> */}
+                                    </div> 
                                 </li>
+                                */}
                                 
                                 &nbsp;
                                 <div style={ {fontSize: "25px", color: "grey"} }>  | </div>
                                 &nbsp;
+                            
+                                <a class="nav-link tab" href="/search">Search</a>
                                 
-                                <li class="nav-item">
-                                    <a class="nav-link tab" href="/about">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link tab" href="/blog">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link tab" href="/contact">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link tab" href="/search">Search</a>
-                                </li>
                             </ul>
                         </div>
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Home from '../Home/Home';
-import Services from '../Services/Services';
+/* import Services from '../Services/Services'; */
 import DataAnalytics from '../Services/DataAnalytics/DataAnalytics';
 import WebDevelopment from '../Services/WebDevelopment/WebDevelopment';
 import Invest from '../Invest/Invest';
@@ -23,19 +23,12 @@ import '../Contact/Contact.css';
 export default function Page() {
   return (
     <BrowserRouter>
-      <div>
-        <Route exact path="/home" component={ Home } />
-        <Route exact path="/services" component={ Services } />
-        <Route exact path="/data-analytics" component={ WebDevelopment } />
-        <Route exact path="/web-development" component={ DataAnalytics } />
-        <Route exact path="/invest" component={ Invest } />
-        <Route exact path="/comp-prob" component={ CompProb } />
-        <Route exact path="/Other" component={ Other } />
-        <Route exact path="/contact-invest" component={ ContactInvest } />
-        <Route exact path="/about" component={ About } />
-        <Route exact path="/blog" component={ Blog } />
-        <Route exact path="/contact" component={ Contact } />
-      </div>
+        <Routes>
+          <Route exact path="/home" component={ Home } />
+          
+          <Route exact path="/data-analytics" component={ WebDevelopment } />
+          
+        </Routes>
     </BrowserRouter>
   )
 }
