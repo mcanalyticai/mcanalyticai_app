@@ -14,7 +14,7 @@ const contactEmail = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: "tech@mc-analyticai.com",
-        pass: "World-19-is-!blue?-and28-green"
+        pass: "nothing"
     }
 })
 
