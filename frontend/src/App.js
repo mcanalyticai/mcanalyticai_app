@@ -1,4 +1,4 @@
- import React from 'react';
+import React from 'react';
 
 import NavBar from './containers/NavBar/NavBar';
 import Page from './containers/Page/Page';

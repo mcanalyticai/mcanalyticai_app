@@ -1,6 +1,6 @@
 # egyptian hieroglyphs unicode
 from h_glyphics import aeh
-from logos import alien_hieroglyphic
+# from logos import alien_hieroglyphic
 from logos import a_bet
 
 import random
@@ -16,7 +16,7 @@ def choose():
 
 class stone(aeh, h_glyphics, a_bet, random_letter):
     # logos -[alphabet]-(insert_random)-> print
-    def write(hieroglyphics=aeh, a_func=alien_hieroglyphic, abet=a_bet):
+    def write(hieroglyphics=aeh, a_func=il_hieroglyphic, abet=a_bet):
         # random hieroglyphic
         aeh_len = len(hieroglyphics)
         aeh_rand = random.randint(0, aeh_len)
